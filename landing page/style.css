@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.title2{
+    justify-content: center;
+    position: absolute;
+    left: 45%;
+    font-size: 40px;
+    border-bottom: 2px solid ;
+    align-items: center;
+    color: white;
+    background-color: #454545;
+    background-repeat: repeat;
+}
+.bg{
+    /* margin-top: 40px; */
+    background-color: #454545;
+    /* background: url('12.jpg'); */
+    /* background-repeat: no-repeat; */
+
+    /* background-size: cover; */
+}
+.div22{
+    margin: 20px;
+    border: 2px solid rgb(255, 255, 255) ;
+}
+.back{
+    background: url('dd.jpg');
+    color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.back2{
+    background: url('th.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.text{
+    color: rgb(26, 215, 51);
+}
+.bgimg{
+    background-color: rgb(167, 172, 212);
+}
+
+.container{
+    max-width: 80vw;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.navbar{
+    display: flex;
+    height: 67px;
+}
+.navbar li{
+    list-style: none;
+    font-size: 20px;
+    /* font-weight: 580; */
+    margin: 0 12px;
+}
+
+.topleft{
+    width: 50%;
+    margin-top: 100px;
+    margin-top: 100px;
+}
+.verticle-line {
+    width: 1px;
+    min-height: 400px;
+    background: red;
+  }
+
+.topright{ 
+    width: 50%;
+    margin-bottom: 50px;
+}
+
+.section1{
+   max-height: 100vh; 
+   color: #711e15;
+}
+
+.section1 h1{
+    color: #37110d;
+    font-size: 2rem;
+}
+
+.logo{
+    font-weight: bold;
+    font-size: 30px;
+    margin-left: 40px;
+}
+
+.dumbellimg{
+    width: 289px;
+}
+
+.topright .picimg{
+    width: 466px;
+    margin-top: 80px;
+}
+
+.section2{
+    padding: 73px;
+}
+
+.section2 h1{
+    font-size: 2.3rem;
+}
+
+.section2 p{
+    padding: 0 2vw;
+    text-align: center;
+}
+
+.box{
+    background: url('th.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 8px 0;
+    margin: 12px 22px;
+    min-width: 18vw;
+    border: 2px solid rgb(120, 54, 16);
+    border-radius: 8px;
+    text-align: center;
+}
+
+.box h2{
+    font-size: 2rem;
+    padding: 15px 0;
+}
+
+.highlighted{
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
+
+.box ul{
+    list-style-type: none;
+}
+
+.box ul li{
+   margin: 10px 2px;
+}
+
+.plantable{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section3 table{
+    width: 100%;
+    margin-bottom: 140px;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+.section3 table th{ 
+    width: 23vw; 
+    border-bottom: 2px solid black;
+    padding: 15px 0;
+} 
+
+.section3 table td{   
+    border-bottom: 2px solid black; 
+} 
+ 
+
+.section3 h1{
+    font-size: 2.3rem;
+}
+
+.section3{
+    padding: 73px;
+}
+
+footer{
+    padding: 23px;
+    text-align: center;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 12px;
+}
+
+.deal{
+    font-size: 1.2rem;
+    font-weight: bolder;
+    margin: 12px 0;
+}
+.circle{
+    border-radius: 50%;
+    height: 100px;
+}
+
+.contactForm{
+    margin: 2rem;
+    width: calc(100% - 4rem);
+    background-color: rgb(255 255 255 / 31%);
+    border: 1px solid rgb(255 255 255 / 31%);
+    border-radius: 5px;
+    padding: 1rem;
+}
+.contactForm > .formGroup{
+    margin-bottom: 1rem;
+}
+.formGroup > input, .formGroup > textarea{
+    width: 90%;
+    /* height:0px; */
+    padding: 5px 10px;
+    margin-top: 5px;
+    font-weight: 600;
+}
+.submitButton{
+    padding: 10px 20px;
+    font-weight: 600;
+    font-size: 15px;
+  }

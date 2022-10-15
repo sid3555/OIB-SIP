@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Portfolio</title>
+  <link href="css.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <main class='main'>
+    <nav class='navBar'>
+      <h1>Siddhesh Patil Portfolio</h1>
+      <div class='navigationMenu'>
+        <a href="#aboutMe">About Me</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contactForm">Let's Connect!</a>
+        <div>
+    </nav>
+    <section class='heroSection'>
+      <div class='herosectionDetails' style="color: rgb(37, 91, 208);">
+
+        <h1>Siddhesh Patil</h1>
+        <h3>Full-Stack Developer</h3>
+      </div>
+    </section>
+    <section class='aboutMe' id='aboutMe'>
+      <h1 style="color: rgb(108, 37, 208);">What I Do...</h1>
+      <p style="color: rgb(208, 148, 37);">lorem-25Some basic details can be added hear regarding what you are realy 
+        known for. What you have done in your
+        past job experience. Why do you think you are doing well and more compatible with respect to other users and
+        creators. Some basic details can be added hear regarding what you are realy known for. What you have done in
+        your past job experience. Why do you think you are doing well and more compatible with respect to other users
+        and creators. Some basic details can be added hear regarding what you are realy known for. What you have done in
+        your past job experience. Why do you think you are doing well and more compatible with respect to other users
+        and creators.</p>
+    </section>
+    <section class='skillsAndProjects'>
+      <div class='skills' id='skills'>
+        <h1 class='cardHeading' style="color: black;">Skills</h1>
+        <img title='HTML' src='/images/html.jpg'>
+        <img title='CSS' src='/images/css.jpg'>
+        <img title='Javascript' src='/images/js.jpg'>
+        <img title='Node.JS' src='/images/nodejs.jpg'>
+        <img title='React' src='/images/react.jpg'>
+        <img title='MongoDB' src='/images/mongo.jpg'>
+        <img title='Firebase' src='/images/firebase.jpg'>
+      </div>
+      <div class='projects' id='projects'>
+        <h1 class='cardHeading' style="color: black;" >Projects</h1>
+        <div class='projectContainer'>
+          <div class='projectDescription' style="color: black;">
+            <h4>Online Voting System</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem placeat dolore dolor quia nemo eaque laboriosam aspernatur doloremque possimus nobis minima reiciendis, veniam quidem repellat quos necessitatibus id vitae molestiae.</p>
+          </div>
+        </div>
+        <div class='projectContainer'>
+          <div class='projectDescription' style="color: black;">
+            <h4>Sport Event Management System</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, animi eveniet! Accusantium adipisci cum voluptatem voluptas blanditiis totam mollitia saepe? Magnam consequatur quibusdam at ducimus ut quisquam quia ullam excepturi.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class='contactForm' id='contactForm' style="color: black;">
+      <h1>Let's Connect!</h2>
+        <div class='formGroup'>
+          <label for='name'>Enter Full Name</label><br />
+          <input type='text' id='name' placeholder='Full Name' />
+        </div>
+        <div class='formGroup'>
+          <label for='email'>Email</label><br />
+          <input type='text' id='email' placeholder='Email' />
+        </div>
+        <div class='formGroup'>
+          <label for='message'>Message</label><br />
+          <textarea placeholder="Send some message!" id="message" name="w3review" rows="4" cols="50"></textarea>
+        </div>
+        <button class='submitButton' onClick={submit()}>Connect</button>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+
+</html>
